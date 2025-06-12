@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="ViolenceDisabled"]/displayOrderInCategory</xpath>
+        <value>
+            <displayOrderInCategory>2</displayOrderInCategory>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="KillThirst"]/displayOrderInCategory</xpath>
+        <value>
+            <displayOrderInCategory>21</displayOrderInCategory>
+        </value>
+    </Operation>
+</Patch>

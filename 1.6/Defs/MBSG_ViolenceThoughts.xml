@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>MBSG_ViolenceHatred_Weapon</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+        <li>MBSG_ViolenceHatred</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>violence hatred</label>
+        <description>I'm carrying a tool made solely for killing. This is the worst fate imaginable.</description>
+        <baseMoodEffect>-40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MBSG_ViolenceDislike_Weapon</defName>
+    <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <requiredGenes>
+        <li>MBSG_ViolenceDislike</li>
+    </requiredGenes>
+    <stages>
+      <li>
+        <label>violence dislike</label>
+        <description>I'm carrying a tool made solely for killing. This makes me extremely uncomfortable.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

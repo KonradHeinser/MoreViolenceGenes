@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="GeneMeleeDamageBase">
+    <defName>MBSG_MeleeDamage_Abysmal</defName>
+    <label>abysmal melee damage</label>
+    <labelShortAdj>weak</labelShortAdj>
+    <description>Carriers of this gene do less damage in close-quarters combat. Weak fast-twitch muscle fibers make their strikes shaky and weak.</description>
+    <iconPath>UI/Icons/Genes/Gene_WeakMeleeDamage</iconPath>
+    <displayOrderInCategory>29</displayOrderInCategory>
+    <statFactors>
+      <MeleeDamageFactor>0.25</MeleeDamageFactor>
+    </statFactors>
+    <biostatMet>2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>puno</symbol></li>
+        <li><symbol>weak</symbol></li>
+        <li><symbol>poke</symbol></li>
+        <li><symbol>flab</symbol></li>
+        <li><symbol>anemo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMeleeDamageBase">
+    <defName>MBSG_MeleeDamage_Decent</defName>
+    <label>decent melee damage</label>
+    <labelShortAdj>strong</labelShortAdj>
+    <description>Carriers of this gene do more damage in close-quarters combat. Extra-strong fast-twitch muscle fibers make their strikes accurate and powerful.</description>
+    <iconPath>UI/Icons/Genes/Gene_StrongMeleeDamage</iconPath>
+    <displayOrderInCategory>39</displayOrderInCategory>
+    <statFactors>
+      <MeleeDamageFactor>1.25</MeleeDamageFactor>
+    </statFactors>
+    <biostatMet>-1</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>basher</symbol></li>
+        <li><symbol>striker</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>bash</symbol></li>
+        <li><symbol>strong</symbol></li>
+        <li><symbol>strike</symbol></li>
+        <li><symbol>hercu</symbol></li>
+        <li><symbol>achillo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMeleeDamageBase">
+    <defName>MBSG_MeleeDamage_Extreme</defName>
+    <label>extreme melee damage</label>
+    <labelShortAdj>strong</labelShortAdj>
+    <description>Carriers of this gene do more damage in close-quarters combat. Extra-strong fast-twitch muscle fibers make their strikes accurate and powerful.</description>
+    <iconPath>UI/Icons/Genes/Gene_StrongMeleeDamage</iconPath>
+    <displayOrderInCategory>41</displayOrderInCategory>
+    <statFactors>
+      <MeleeDamageFactor>1.75</MeleeDamageFactor>
+    </statFactors>
+    <biostatMet>-3</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>basher</symbol></li>
+        <li><symbol>striker</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>bash</symbol></li>
+        <li><symbol>strong</symbol></li>
+        <li><symbol>strike</symbol></li>
+        <li><symbol>hercu</symbol></li>
+        <li><symbol>achillo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneMeleeDamageBase">
+    <defName>MBSG_MeleeDamage_Super</defName>
+    <label>super melee damage</label>
+    <labelShortAdj>strong</labelShortAdj>
+    <description>Carriers of this gene do more damage in close-quarters combat. Extra-strong fast-twitch muscle fibers make their strikes accurate and powerful.</description>
+    <iconPath>UI/Icons/Genes/Gene_StrongMeleeDamage</iconPath>
+    <displayOrderInCategory>42</displayOrderInCategory>
+    <statFactors>
+      <MeleeDamageFactor>2</MeleeDamageFactor>
+    </statFactors>
+    <biostatMet>-4</biostatMet>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>basher</symbol></li>
+        <li><symbol>striker</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>bash</symbol></li>
+        <li><symbol>strong</symbol></li>
+        <li><symbol>strike</symbol></li>
+        <li><symbol>hercu</symbol></li>
+        <li><symbol>achillo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneAggressionBase">
+    <defName>MBSG_Aggression_MildlyAggressive</defName>
+    <label>mildly aggressive</label>
+    <description>Carriers of this gene are quick to anger. They are one and a half times as likely to start social fights. When they have mental breaks, they are one and a half times as likely to choose an aggressive kind of break.</description>
+    <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+    <socialFightChanceFactor>1.5</socialFightChanceFactor>
+    <aggroMentalBreakSelectionChanceFactor>1.5</aggroMentalBreakSelectionChanceFactor>
+    <prisonBreakMTBFactor>0.8</prisonBreakMTBFactor>
+    <displayOrderInCategory>9</displayOrderInCategory>
+    <biostatMet>1</biostatMet>
+    <exclusionTags>
+      <li>Aggressive</li>
+    </exclusionTags>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>aggro</symbol></li>
+        <li><symbol>hate</symbol></li>
+        <li><symbol>fight</symbol></li>
+        <li><symbol>destro</symbol></li>
+        <li><symbol>barb</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>fighter</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_ViolenceHatred</defName>
+    <label>violence hatred</label>
+    <labelShortAdj>nonviolent</labelShortAdj>
+    <description>Carriers of this gene emotionally and mentally hate engaging in violence. They are resistant to the idea of killing another.</description>
+    <iconPath>UI/Icons/Genes/Gene_ViolenceDisabled</iconPath>
+    <displayCategory>Violence</displayCategory>
+    <displayOrderInCategory>3</displayOrderInCategory> 
+    <biostatMet>2</biostatMet>
+    <socialFightChanceFactor>0.33</socialFightChanceFactor>
+    <exclusionTags>
+      <li>MeleeDamage</li>
+      <li>ShootingAccuracy</li>
+      <li>Aggressive</li>
+      <li>KillThirst</li>
+    </exclusionTags>
+    <statFactors>
+      <MeleeDamageFactor>0.33</MeleeDamageFactor>
+    </statFactors>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>paci</symbol>
+          <weight>1.5</weight>
+        </li>
+        <li><symbol>calm</symbol></li>
+        <li><symbol>peace</symbol></li>
+        <li><symbol>dove</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>dove</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>MBSG_ViolenceDislike</defName>
+    <label>violence dislike</label>
+    <labelShortAdj>nonviolent</labelShortAdj>
+    <description>Carriers of this gene emotionally and mentally dislike engaging in violence. They are somewhat resistant to the idea of hurting another.</description>
+    <iconPath>UI/Icons/Genes/Gene_ViolenceDisabled</iconPath>
+    <displayCategory>Violence</displayCategory>
+    <displayOrderInCategory>4</displayOrderInCategory> 
+    <biostatMet>1</biostatMet>
+    <socialFightChanceFactor>0.66</socialFightChanceFactor>
+    <exclusionTags>
+      <li>MeleeDamage</li>
+      <li>ShootingAccuracy</li>
+      <li>Aggressive</li>
+      <li>KillThirst</li>
+    </exclusionTags>
+    <statFactors>
+      <MeleeDamageFactor>0.66</MeleeDamageFactor>
+    </statFactors>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>paci</symbol>
+          <weight>1.2</weight>
+        </li>
+        <li><symbol>calm</symbol></li>
+        <li><symbol>peace</symbol></li>
+        <li><symbol>dove</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>dove</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>
